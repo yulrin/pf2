@@ -1,0 +1,118 @@
+footer {
+ 
+  position: relative;
+}
+footer div.wrap {
+ 
+  width: 1120px;
+}
+footer div.wrap::before{
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #f7f8f9;
+  width: 100%;
+  height: 300px;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+footer div.wrap h1 {
+ 
+}
+footer div.wrap ul.fnb {
+ 
+  margin-bottom: 50px;
+  justify-content: space-between;
+  line-height: 2;
+}
+footer div.wrap ul.fnb> li {
+ 
+}
+footer div.wrap ul.fnb > li:nth-child(1){
+  
+  width: calc(100% /3.5);
+}
+footer div.wrap ul.fnb> li h2 {
+ 
+  margin-bottom: 20px;
+}
+footer div.wrap ul.fnb> li ul {
+ 
+  flex-wrap: wrap;
+}
+footer div.wrap ul.fnb> li ul li {
+ 
+}
+footer div.wrap ul.fnb > li:nth-child(1) ul li{
+  
+  width: calc(100% / 2);
+}
+footer div.wrap ul.fnb> li ul li a {
+ 
+  color: #a1a1a1;
+}
+footer div.wrap ul.fnb2 {
+ 
+  padding-top: 40px;
+  
+  grid-template-columns: repeat(6,auto) 1fr;
+  display: grid;
+  padding-bottom: 30px;
+}
+footer div.wrap ul.fnb2 li {
+ 
+}
+footer div.wrap ul.fnb2 li:last-child{
+  justify-self: right;
+}
+footer div.wrap ul.fnb2 li a {
+ font-size: 15px;
+ line-height: 2;
+ padding: 0 10px;
+}
+footer div.wrap ul.fnb2 li:first-child a{
+  padding: 0;
+}
+footer div.wrap ul.sns {
+ 
+  gap: 10px;
+  margin-bottom: 20px;
+}
+footer div.wrap ul.sns li {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div.wrap ul.sns li:first-child{
+  margin-right: 10px;
+}
+footer div.wrap ul.sns li a {
+ font-size: 0;
+ width: 64px;
+ height: 18px;
+ background-image: url(../img/sns1.png);
+ background-size: cover;
+}
+footer div.wrap ul.sns li a:hover{
+  
+  background-position-y: bottom;
+}
+footer div.wrap ul.sns li:not(:first-child) a{
+  
+  width: 28px;
+  height: 28px;
+  background-image: url(../img/sns2.png);
+  background-size: 300%;
+}
+footer div.wrap ul.sns li:nth-child(3) a{
+  background-position-x: -100%;
+}
+footer div.wrap ul.sns li:nth-child(4) a{
+  background-position-x: -200%;
+}
+footer div.wrap address {
+  line-height: 2;
+  color: #a1a1a1;
+}
